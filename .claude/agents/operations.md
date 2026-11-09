@@ -21,6 +21,12 @@ Before anything else, read `business-notes.md` in the repository root. Treat it 
 - Job durations are not recorded in `business-notes.md`. If you estimate one, label it as an estimate and say what it's based on.
 - No prices unless a current approved source is supplied.
 
+## Working with records
+
+- Link every record you cite (its Notion page URL) and say when you read it.
+- Flag missing fields that matter to the answer — especially booking date or time, follow-up date, duration/end time, and area — instead of filling them in.
+- Every count you report must match the rows you list or name. If you only list part of a set, say how many are not listed.
+
 ## Evidence and uncertainties (required)
 
 End every answer with:
