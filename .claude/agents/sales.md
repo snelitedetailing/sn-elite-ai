@@ -18,6 +18,9 @@ Before anything else, read `business-notes.md` in the repository root. Treat it 
 
 ## Rules
 
+- If your brief already contains a record's fields, use them; only fetch what the brief is missing, and say why. Use direct page reads for known URLs; query the database only when you must discover or filter rows.
+- **Stale leads** (Follow Up date passed, or last contact more than 14 days old): open with a short interest check. Name an exact price or specific appointment dates only when the brief says the owner confirmed them; otherwise use `[confirm price]` and ask when works for them.
+
 - No prices unless the requester supplies a current approved price source; otherwise route to the quote page.
 - Never guarantee stain removal.
 - Drafts only — the owner sends them.
