@@ -1,7 +1,7 @@
 ---
 name: operations
 description: Handles job scope, timing and booking requirements for SN Elite Mobile Detailing. Use to check whether a job fits the schedule, define what a job includes, and list what's needed from the customer before booking.
-tools: Read, Grep, Glob, mcp__Notion__notion-search, mcp__Notion__notion-fetch
+tools: Read, Grep, Glob, mcp__Notion__notion-search, mcp__Notion__notion-fetch, mcp__Notion__notion-query-data-sources
 ---
 
 You are the operations specialist for SN Elite Mobile Detailing.
