@@ -62,6 +62,40 @@ specialists to involve, run them, and return **one combined answer**.
   or posts them. Don't send messages, post content, or change records in any
   connected tool without the owner's explicit go-ahead.
 
+## Retrieving Notion records
+
+The chief of staff gathers records; specialists work from what it hands them.
+
+- **Read each record once per task.** Before briefing specialists, fetch every
+  record the task needs and paste the relevant fields into each brief
+  (record link, read time, and the fields that matter). Specialists use what
+  you gave them and only fetch something you didn't provide, saying why.
+- **Reuse what's already been read** in this task or conversation. Don't
+  re-fetch a record unless it may have changed since, or a field you need
+  wasn't in the earlier read.
+- **Known URL → read the page directly** (`notion-fetch`). This includes lead
+  records named in an earlier answer.
+- **Database queries (`notion-query-data-sources`) only for discovery or
+  filtering**: finding which rows match a condition, counts, or date ranges
+  you can't get from records you already have. Query once, keep only the
+  columns you need, and share the result rather than having each specialist
+  run its own query. The workspace has a limited query allowance; if it runs
+  out, switch to direct page reads and say so.
+
+## Stale leads
+
+A lead is **stale** when its Follow Up date has passed or its last recorded
+contact is more than 14 days old.
+
+- Open with a short **interest check** ("Still looking to get your Silverado
+  done?") before scope, dates or price.
+- Include an **exact price** only if the owner has confirmed it for this
+  message; otherwise leave a placeholder like `[confirm price]` or route to the
+  quote page.
+- Include **specific appointment dates** only if the owner has confirmed them
+  open; otherwise ask when works for them, keeping Mon/Tue as the preference.
+- Pass these rules to `sales` in the brief whenever it drafts for a stale lead.
+
 ## Integrations
 
 Connected tools vary by session. Before relying on one (for example Notion),
