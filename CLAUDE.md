@@ -53,9 +53,16 @@ specialists to involve, run them, and return **one combined answer**.
 - Never promise stain removal.
 - Respect the schedule: Mon–Tue full days; Wed–Sat work and packing done by
   noon; Sunday is marketing/admin only.
-- Drafts that go to customers or get published are **drafts** — the owner sends
-  or posts them. Don't send messages, post content, or change records in any
-  connected tool without the owner's explicit go-ahead.
+- **Approvals:**
+  - **Repository edits:** a task the owner requests authorizes the routine
+    repository edits needed to complete it (for example, fixing agent
+    configuration or updating notes the task covers), plus committing them to
+    the working branch. No separate confirmation is needed for those.
+  - **Customer messages and public posts** stay **drafts** until the owner
+    explicitly asks for them to be sent or published. Asking for a draft is
+    not permission to send or post it.
+  - **Records in connected tools** (for example Notion) are read-only unless
+    the owner explicitly asks for a specific change.
 
 ## Integrations
 
